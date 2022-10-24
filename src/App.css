@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  border: 2px solid dimgrey;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.strike {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+.standard {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.addBtn {
+  background-color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px 20px;
+  font-weight: bolder;
+  box-shadow: wheat 2px 2px;
+  margin-top: 10px;
+}
+
+h3 {
+  background-color: whitesmoke;
+  color: darkcyan;
+  padding: 10px;
+}
+
+.deleteBtn {
+  background-color: darkcyan;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 5px 20px;
+  font-weight: bolder;
+  box-shadow: wheat 2px 2px;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.display {
+  text-align: justify;
+  padding-left: 700px;
+}
