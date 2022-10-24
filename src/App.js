@@ -49,20 +49,25 @@ function App() {
 
   return (
     <div className="App">
-      <Form
-        handleSubmit={handleSubmit}
-        newTask={newTask}
-        setNewTask={setNewTask}
-        currentTaskArray={currentTaskArray}
-        setCurrentTaskArray={setCurrentTaskArray}
-      />
-      <Display
-        currentTaskArray={currentTaskArray}
-        handleCheckedBox={handleCheckedBox}
-        checkedStyle={checkedStyle}
-        handleDelete={handleDelete}
-        setCurrentTaskArray={setCurrentTaskArray}
-      />
+      <div>
+        <Form
+          handleSubmit={handleSubmit}
+          newTask={newTask}
+          setNewTask={setNewTask}
+          currentTaskArray={currentTaskArray}
+          setCurrentTaskArray={setCurrentTaskArray}
+        />
+        <Display
+          currentTaskArray={currentTaskArray}
+          handleCheckedBox={handleCheckedBox}
+          checkedStyle={checkedStyle}
+          handleDelete={handleDelete}
+          setCurrentTaskArray={setCurrentTaskArray}
+        />
+      </div>
+      <div className="pendingTasks">
+        <h3>You have {currentTaskArray.length} task(s) pending.</h3>
+      </div>
     </div>
   );
 }
